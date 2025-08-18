@@ -19,7 +19,7 @@ Container Architecture & Deployment Guide
 
 **1. Clone and navigate to the project**
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:4gh0rn/baby-tools-shop.git
 cd baby-tools-shop
 ```
 
@@ -33,7 +33,7 @@ cp .env.example .env
 docker-compose -f docker-compose.prod.yml up -d
 ```
 
-Access your app: http://localhost:8025
+Access your app: http://<your-ip>:8025
 
 ---
 
