@@ -33,7 +33,7 @@ cp .env.example .env
 docker-compose -f docker-compose.prod.yml up -d
 ```
 
-Access your app: http://<your-ip>:8025
+Access your app: `http://<your-ip>:8025`
 
 ---
 
