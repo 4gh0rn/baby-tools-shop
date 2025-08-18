@@ -9,4 +9,4 @@ python manage.py migrate
 
 # Start server
 echo "Starting server..."
-python manage.py runserver 0.0.0.0:8025
+gunicorn --bind 0.0.0.0:8025 babyshop.wsgi:application
